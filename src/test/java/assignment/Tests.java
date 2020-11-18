@@ -16,7 +16,10 @@ public class Tests {
    @Test
    public void test(){
        App.main(null);
-       //assertEquals("EXPECTED", App.testMethod(), "ERROR MESSAGE");
+       assertEquals(true, App.sleepIn(false, false), "INCORRECT");
+       assertEquals(true, App.sleepIn(true, true), "INCORRECT");
+       assertEquals(false, App.sleepIn(true, false), "INCORRECT");
+       assertEquals(true, App.sleepIn(false, true), "INCORRECT");
    }
 
 }

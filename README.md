@@ -1,14 +1,38 @@
-# **Assignment Title**
+# **Sleep In**
 
 ## **Assignment Description**
+Create a method called sleepIn that returns true/false if you can sleep in today.  
+You can always sleep in on weekends.
+You can always sleep in when on vacation.  
+You cannot sleep in on weekdays when it is not your vacation.
 
+The first argument is weekday and the second argument is vacation.
 
 ## **Example**
->
+>sleepIn(false, false)  
+true  
+
+>sleepIn(true, true)  
+true
+
+>sleepIn(true, false)  
+false
+
+>sleepIn(false, true)  
+true
+
 
 ## **Limitations**
+1 method  
+1 if  
+1 else if  
+1 else
 
 ## **Hints**
+N/A
+
+## **Concepts**  
+Methods, Boolean, Operators  
 
 ---
 
