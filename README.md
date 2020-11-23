@@ -25,11 +25,11 @@ true
 ## **Limitations**
 1 method  
 1 if  
-1 else if  
+0 else if  
 1 else
 
 ## **Hints**
-N/A
+Use || for an OR operation
 
 ## **Concepts**  
 Methods, Boolean, Operators  
